@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components -> Title component should renders correctly 1`] = `
+.c0 {
+  color: white;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  font-family: Roboto,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+<h2
+  className="c0"
+>
+  Media title
+</h2>
+`;

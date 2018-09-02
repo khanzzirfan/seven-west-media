@@ -1,5 +1,7 @@
 
 ## Seven West Media Assessment
+github page [https://sahilkhan99.github.io/seven-west-media/](https://sahilkhan99.github.io/seven-west-media/)
+
 ### To run the application follow the steps
 ```
 npm install 

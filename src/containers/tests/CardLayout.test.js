@@ -25,6 +25,12 @@ describe('components -> CardLayout component', () => {
         const cardItemElements = instance.findAllByType(CardItem);
         expect(cardItemElements.length).toBe(2);
     });
+
+    it('should pass array data as props card layout', () => {
+        const data = instance.props.data;
+        expect(data.length).toBe(2);
+        expect(data).toEqual(stubData);
+    });
 });
 
 

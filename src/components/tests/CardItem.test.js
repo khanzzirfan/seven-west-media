@@ -10,7 +10,7 @@ import Title from '../Title';
 import logoImage from '../../assets/logo.png';
 import backgroundImage from '../../assets/tile.jpg';
 
-describe('components -> CardItem ', () => {
+describe('components -> CardItem component ', () => {
     let instance;
     let testRenderer;
 

@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components -> CardItem component  should render correctly and match to snapshot 1`] = `
-.c2 {
+exports[`components -> CardLayout component should renders correctly and match to snapshot 1`] = `
+.c3 {
   margin-top: 9px;
   margin-left: 9px;
   width: 38px;
   height: 38px;
 }
 
-.c3 {
+.c4 {
   color: white;
   margin: 0 0 0 10px;
   font-size: 20px;
@@ -27,7 +27,7 @@ exports[`components -> CardItem component  should render correctly and match to 
   text-align: center;
 }
 
-.c1 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40,7 +40,7 @@ exports[`components -> CardItem component  should render correctly and match to 
   height: 51px;
 }
 
-.c0 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -56,8 +56,21 @@ exports[`components -> CardItem component  should render correctly and match to 
   float: left;
 }
 
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 5;
+  padding: 5;
+}
+
 @media (max-width:320px) {
-  .c0 {
+  .c1 {
     width: 100%;
   }
 }
@@ -68,16 +81,38 @@ exports[`components -> CardItem component  should render correctly and match to 
   <div
     className="c1"
   >
-    <img
-      alt="media alt"
+    <div
       className="c2"
-      src="logo.png"
-    />
-    <h2
-      className="c3"
     >
-      Home and Away
-    </h2>
+      <img
+        alt="Seven West Media"
+        className="c3"
+        src="logo.png"
+      />
+      <h2
+        className="c4"
+      >
+        Home and Away
+      </h2>
+    </div>
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt="Seven West Media"
+        className="c3"
+        src="logo.png"
+      />
+      <h2
+        className="c4"
+      >
+        Home and Away
+      </h2>
+    </div>
   </div>
 </div>
 `;

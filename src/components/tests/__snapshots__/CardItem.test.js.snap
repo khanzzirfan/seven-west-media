@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components -> CardItem  should render correctly and match to snapshot 1`] = `
+.c2 {
+  margin-top: 9px;
+  margin-left: 9px;
+  width: 38px;
+  height: 38px;
+}
+
+.c3 {
+  color: white;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  font-family: Roboto,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 51px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(tile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 320px;
+  height: 178px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+@media (max-width:320px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      alt="media alt"
+      className="c2"
+      src="logo.png"
+    />
+    <h2
+      className="c3"
+    >
+      Home and Away
+    </h2>
+  </div>
+</div>
+`;

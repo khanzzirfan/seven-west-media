@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Overlay from './Overlay';
-import Image from './Image';
-import Title from './Title';
-
 
 const cardItemWidth = 320;
 const cardItemHeight = 178;
@@ -35,15 +32,6 @@ const CardItem = ({ backgroundImage, iconImage, iconAlt, ImageElement, TitleElem
             title={title} />
     </CardItemView>
 )
-
-CardItem.defaultProps = {
-    backgroundImage: null,
-    iconAlt: '',
-    iconImage: '',
-    ImageElement: Image,
-    TitleElement: Title,
-    title: '',
-};
 
 CardItem.propTypes = {
     backgroundImage: PropTypes.node,

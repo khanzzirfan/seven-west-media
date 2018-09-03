@@ -30,29 +30,4 @@ const data = [
     backgroundImage: backgroundImage,
     title: 'Home and Away',
   },
-  {
-    iconAlt: 'Seven West Media',
-    iconImage: logoImage,
-    backgroundImage: backgroundImage,
-    title: 'Home and Away',
-  },
-  {
-    iconAlt: 'Seven West Media',
-    iconImage: logoImage,
-    backgroundImage: backgroundImage,
-    title: 'Home and Away',
-  },
-  {
-    iconAlt: 'Seven West Media',
-    iconImage: logoImage,
-    backgroundImage: backgroundImage,
-    title: 'Home and Away',
-  },
-  {
-    iconAlt: 'Seven West Media',
-    iconImage: logoImage,
-    backgroundImage: backgroundImage,
-    title: 'Home and Away',
-  },
-  
 ];

@@ -2,9 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Overlay from './Overlay';
+import { media } from '../utils/styleUtils';
 
 const cardItemWidth = 320;
 const cardItemHeight = 178;
+const tabletSize = 1.2;
+const desktopSize = 1.4;
 
 const CardItemView = styled.div`
     display: flex;
@@ -18,9 +21,16 @@ const CardItemView = styled.div`
     position: relative;
     float: left;
 
-    @media (max-width: 320px) {
-        width: 100%;
-    }
+    ${media.desktop`
+        width: ${cardItemWidth * desktopSize}px;
+        height:${cardItemHeight * desktopSize}px;
+    `}
+
+    ${media.tablet`
+        width: ${cardItemWidth * tabletSize}px;
+        height:${cardItemHeight * tabletSize}px;
+    `}
+
 `;
 
 const CardItem = ({ backgroundImage, iconImage, iconAlt, ImageElement, TitleElement, title }) => (

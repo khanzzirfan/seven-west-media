@@ -56,9 +56,17 @@ exports[`components -> CardItem component  should render correctly and match to 
   float: left;
 }
 
-@media (max-width:320px) {
+@media (min-width:62em) {
   .c0 {
-    width: 100%;
+    width: 448px;
+    height: 249.2px;
+  }
+}
+
+@media (min-width:48em) {
+  .c0 {
+    width: 384px;
+    height: 213.6px;
   }
 }
 

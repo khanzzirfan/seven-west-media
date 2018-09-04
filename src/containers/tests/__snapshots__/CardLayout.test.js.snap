@@ -69,9 +69,17 @@ exports[`components -> CardLayout component should renders correctly and match t
   padding: 5;
 }
 
-@media (max-width:320px) {
+@media (min-width:62em) {
   .c1 {
-    width: 100%;
+    width: 448px;
+    height: 249.2px;
+  }
+}
+
+@media (min-width:48em) {
+  .c1 {
+    width: 384px;
+    height: 213.6px;
   }
 }
 
